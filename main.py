@@ -3,7 +3,7 @@ import logging
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-from settings import TOKEN, poehavhiy, phrases
+from settings import TOKEN, phrases
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -26,13 +26,10 @@ def help(update, context):
 
 def echo(update, context):
     text_lover = update.message.text.lower()
-    for phrase in poehavhiy:
-        if text_lover.find(phrase) != -1:
-            update.message.reply_text("https://www.youtube.com/watch?v=1aW3MXrrUfU")
-            break
 
     for phrase, msg in phrases.items():
-        if text_lover.find(phrase) != -1:
+        reg = re.compile(phrase)
+        if reg.search(text_lover):
             update.message.reply_text(msg)
             break
 

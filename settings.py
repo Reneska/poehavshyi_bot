@@ -2,8 +2,6 @@
 
 TOKEN = "604515176:AAEo8pWcb2zfWZGpFhDTagxaotkfIhXJh8Q"
 
-poehavhiy = ["anime", "аниме", "аніме"]
-
 phrases = {}
 phrases["истори"] = "https://www.youtube.com/watch?v=XhWvOHAUvL0"
 phrases[" вы "] = "https://www.youtube.com/watch?v=Y7N_hXBLWuo"
@@ -21,7 +19,7 @@ phrases["сумашедший"] = "https://www.youtube.com/watch?v=mm5scBcqDBE"
 phrases["вода"] = "https://www.youtube.com/watch?v=vwCBxKMO5RI"
 phrases["стру"] = "https://www.youtube.com/watch?v=vwCBxKMO5RI"
 phrases["мойся"] = "https://www.youtube.com/watch?v=vwCBxKMO5RI"
-phrases["ой"] = "https://youtu.be/lkxs2_l-qdo"
+phrases[r"[\s^]ой[\s$]"] = "https://youtu.be/lkxs2_l-qdo"
 phrases["другое"] = "https://www.youtube.com/watch?v=LC5e75rUzzY"
 phrases["хорошое"] = "https://www.youtube.com/watch?v=jwfhZQ4NpcM"
 phrases["самолёт"] = "https://www.youtube.com/watch?v=2wjNuC_2yvg"
@@ -124,5 +122,3 @@ phrases["нахуя"] = "https://www.youtube.com/watch?v=DIkJgS-Vw-Y"
 phrases["есть"] = "https://www.youtube.com/watch?v=qFp7A7PAmz8"
 phrases[" мы "] = "https://www.youtube.com/watch?v=cm7YZIlDksY"
 phrases["кушать"] = "https://www.youtube.com/watch?v=5wY6SyKBi5U"
-
-
