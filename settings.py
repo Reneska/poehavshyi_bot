@@ -130,4 +130,17 @@ phrases[r"(^|\s)свое($|\s)"] = "https://www.youtube.com/watch?v=gDrjIUddTLA"
 phrases[r"(^|\s)дерьмо($|\s)"] = "https://www.youtube.com/watch?v=FHOpkB-ICsk"
 phrases[r"(^|\s)сделал($|\s)"] = "https://www.youtube.com/watch?v=NIMsRDDsWts"
 phrases[r"(^|\s)вызвал($|\s)"] = "https://www.youtube.com/watch?v=Wmhab1dRgx0"
+phrases[r"(^|\s)играть($|\s)"] = "https://youtu.be/FWvaV0DRBLU"
+phrases["проигр"] = "https://youtu.be/FWvaV0DRBLU"
+phrases["верил"] = "https://youtu.be/8p4AimLlFdo"
+phrases["человек"] = "https://youtu.be/bHCRN68cwCc"
+phrases["зверь"] = "https://youtu.be/bHCRN68cwCc"
+phrases["сердитый"] = "https://youtu.be/Fa9Hdu8G5xw"
+phrases["уважа"] = "https://youtu.be/Fa9Hdu8G5xw"
+phrases["уваже"] = "https://www.youtube.com/watch?v=0p8H5NZwj-8"	
+phrases["хочу"] = "https://youtu.be/SLdPs06YX0w"
+phrases["встанет"] = "https://www.youtube.com/watch?v=ZJhXpZz9ZMo"
+phrases["случилось"] = "https://www.youtube.com/watch?v=BimUP9D57Ao"
+
+
 
