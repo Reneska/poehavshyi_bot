@@ -142,5 +142,7 @@ phrases["хочу"] = "https://youtu.be/SLdPs06YX0w"
 phrases["встанет"] = "https://www.youtube.com/watch?v=ZJhXpZz9ZMo"
 phrases["случилось"] = "https://www.youtube.com/watch?v=BimUP9D57Ao"
 
-
-
+stickers = {}
+stickers["тенис"] = "CAADAgAD6AADIjSeBkO7FOgsu2uZAg"
+stickers["теннис"] = "CAADAgAD6AADIjSeBkO7FOgsu2uZAg"
+stickers[r"(^|\s)еда($|\s)"] = "CAADAgADJwADu1dTA6xK8oHr4i8eAg"
