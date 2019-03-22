@@ -149,5 +149,9 @@ phrases["помог"] = "https://youtu.be/GDDS4lvqEeU"
 phrases[r"(^|\s)курить($|\s)"] = "https://youtu.be/sv47pllDQc4"	
 phrases[r"(^|\s)покури($|\s)"] = "https://youtu.be/sv47pllDQc4"	
 phrases[r"(^|\s)сердишься($|\s)"] = "https://youtu.be/sv47pllDQc4"	
+phrases["случилось"] = "https://www.youtube.com/watch?v=BimUP9D57Ao"
 
-
+stickers = {}
+stickers["тенис"] = "CAADAgAD6AADIjSeBkO7FOgsu2uZAg"
+stickers["теннис"] = "CAADAgAD6AADIjSeBkO7FOgsu2uZAg"
+stickers[r"(^|\s)еда($|\s)"] = "CAADAgADJwADu1dTA6xK8oHr4i8eAg"

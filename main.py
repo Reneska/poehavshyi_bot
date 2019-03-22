@@ -3,7 +3,7 @@ import logging
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-from settings import TOKEN, phrases
+from settings import TOKEN, phrases, stickers
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -33,6 +33,16 @@ def echo(update, context):
             update.message.reply_text(msg)
             break
 
+    for phrase, sticker_id in stickers.items():
+        reg = re.compile(phrase)
+        if reg.search(text_lover):
+            update.message.reply_sticker(sticker_id)
+            break
+
+
+# def sticker(update, context):  # для поиска file_id стикера
+#     update.message.reply_sticker("Make error")
+
 
 def error(update, context):
     """Log Errors caused by Updates."""
@@ -56,6 +66,7 @@ def main():
 
     # on noncommand i.e message - echo the message on Telegram
     dp.add_handler(MessageHandler(Filters.text, echo))
+    # dp.add_handler(MessageHandler(Filters.sticker, sticker))
 
     # log all errors
     dp.add_error_handler(error)
