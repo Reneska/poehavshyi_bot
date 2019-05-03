@@ -149,6 +149,9 @@ phrases["помог"] = "https://youtu.be/GDDS4lvqEeU"
 phrases[r"(^|\s)курить($|\s)"] = "https://youtu.be/sv47pllDQc4"	
 phrases[r"(^|\s)покури($|\s)"] = "https://youtu.be/sv47pllDQc4"	
 phrases[r"(^|\s)сердишься($|\s)"] = "https://youtu.be/sv47pllDQc4"	
+phrases[r"(^|\s)звёздочки($|\s)"] = "https://youtu.be/sv47pllDQc4"	
+phrases[r"(^|\s)звездочки($|\s)"] = "https://youtu.be/sv47pllDQc4"	
+phrases[r"(^|\s)родина($|\s)"] = "https://youtu.be/sv47pllDQc4"	
 phrases["случилось"] = "https://www.youtube.com/watch?v=BimUP9D57Ao"
 
 stickers = {}
